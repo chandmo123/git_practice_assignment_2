@@ -1,13 +1,8 @@
-let num=10;
-let count=0;
-for(let i=0;i<=num;i++){
-    if(num%i==0){
-        count++;
-    }
+let n = 13;
+let count = 0;
+for (let i = 1; i <= n; i++) {
+  if (n % i == 0) {
+    count++;
+  }
 }
-if(count==2){
-    console.log("yes");
-}
-else{
-    console.log("no");
-}
+count == 2 ? console.log("True") : console.log("False");
